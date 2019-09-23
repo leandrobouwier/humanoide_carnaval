@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Fantasia 1",
+      "price": 200.00,
+      "promotional_price": 100.00,
+      "image": "http://localhost:3000/assets/images/fantasia-01.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris pharetra et ultrices neque. Arcu dui vivamus arcu felis bibendum. Fermentum dui faucibus in ornare. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Felis imperdiet proin fermentum leo.",
+      "sizes": [
+        "PP",
+        "P",
+        "M",
+        "G"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Fantasia 2",
+      "price": 120.00,
+      "image": "http://localhost:3000/assets/images/fantasia-02.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris pharetra et ultrices neque. Arcu dui vivamus arcu felis bibendum. Fermentum dui faucibus in ornare. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Felis imperdiet proin fermentum leo.",
+      "sizes": [
+        "P",
+        "M",
+        "G"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Fantasia 3",
+      "price": 130.00,
+      "promotional_price": 90.00,
+      "image": "http://localhost:3000/assets/images/fantasia-03.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies mi eget mauris pharetra et ultrices neque. Arcu dui vivamus arcu felis bibendum. Fermentum dui faucibus in ornare. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Felis imperdiet proin fermentum leo.",
+      "sizes": [
+        "P",
+        "M"
+      ]
+    }
+  ]
+}

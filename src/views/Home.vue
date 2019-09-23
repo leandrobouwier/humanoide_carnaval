@@ -1,18 +1,37 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <section>
+      <div class="banner">
+        <div class="conteudo-banner">
+          <h2>
+            Ainda dá tempo de
+            <b>ser felix</b>
+          </h2>
+          <p>
+            Fantasias premiun por
+            <span>$100,00</span>
+          </p>
+          <button class="button-home" @click="scrollBottom">Comprar Agora</button>
+        </div>
+        <img src="../assets/images/banner.jpg">
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
+  methods: {
+    scrollBottom() {
+      window.scrollTo({
+        top: 600,
+        behavior: "smooth"
+      });
+    }
   }
-}
+};
 </script>
+
+<style scoped>
+@import "../assets/css/home.css";
+</style>

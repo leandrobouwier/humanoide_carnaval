@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  padding: 25px 60px;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  header {
+    display: block;
+  }
+  header .introducao {
+    display: none;
+  }
+  header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
